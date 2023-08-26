@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        form design
+    </title>
+
+
+    <style>
+        #textarea{
+            resize: none;
+            width: 50%;
+            padding: 20px 30px;
+            box-sizing: border-box;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+
+        input[type="button"]{
+            border: none;
+            font-size: 1rem;
+            background-color: pink;
+            border: 2px solid red;
+            border-radius: 10px;
+            padding: 10px;
+            
+        }
+
+        #sub-name{
+            padding: 16px;
+            border-radius: 10px;
+            background-color: hotpink;
+            color: white;
+            width: 160px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <textarea name="textarea" id="textarea" 
+        cols="30" rows="10" placeholder="Write Your Comment"></textarea>
+
+        <p></p>
+
+            <input type="button" value="Submit">
+
+            <p></p>
+            <input type="button" value="Okay">
+
+
+
+    </form>
+
+    <br><br>
+
+    <select name="sub-name" id="sub-name">
+        <option value="">
+            selact 
+        </option>
+        <option value="html">Html</option>
+        <option value="c++">C++</option>
+        <option value="java">Java</option>
+        <option value="js">Js</option>
+
+    </select>
+
+</body>
+</html>
